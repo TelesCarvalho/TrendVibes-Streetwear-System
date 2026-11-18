@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="brand_black">#0A0A0A</color>
+    <color name="brand_gray">#262626</color>
+    <color name="brand_red">#CC0000</color>
+    <color name="brand_white">#FFFFFF</color>
+    <color name="brand_yellow">#FACC15</color>
+    <string name="app_name">TrendVibes</string>
+    <string name="app_subtitle">STREETWEAR SYSTEM</string>
+    <style name="Theme.TrendVibes" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">#0A0A0A</item>
+        <item name="android:navigationBarColor">#0A0A0A</item>
+    </style>
+</resources>
