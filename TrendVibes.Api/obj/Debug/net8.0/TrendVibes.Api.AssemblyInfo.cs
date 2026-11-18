@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TrendVibes.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ee042ef47b607391b62bc0c3a3be7399d91e9bb9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+105dcd423f4d62bce5f2bb9d40332173a6418cfd")]
 [assembly: System.Reflection.AssemblyProductAttribute("TrendVibes.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TrendVibes.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

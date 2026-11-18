@@ -205,11 +205,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\TrendVibes_Real\\TrendVibes.Api\\TrendVibes.Api.csproj",
+      "projectUniqueName": "c:\\TrendVibes_Real\\TrendVibes.Api\\TrendVibes.Api.csproj",
       "projectName": "TrendVibes.Api",
-      "projectPath": "C:\\TrendVibes_Real\\TrendVibes.Api\\TrendVibes.Api.csproj",
+      "projectPath": "c:\\TrendVibes_Real\\TrendVibes.Api\\TrendVibes.Api.csproj",
       "packagesPath": "C:\\Users\\Sanddro Lourenço\\.nuget\\packages\\",
-      "outputPath": "C:\\TrendVibes_Real\\TrendVibes.Api\\obj\\",
+      "outputPath": "c:\\TrendVibes_Real\\TrendVibes.Api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Sanddro Lourenço\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -268,5 +268,17 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.421/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'MySqlConnector' 2.5.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-473q-m89c-ghf8",
+      "libraryId": "MySqlConnector",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
 }

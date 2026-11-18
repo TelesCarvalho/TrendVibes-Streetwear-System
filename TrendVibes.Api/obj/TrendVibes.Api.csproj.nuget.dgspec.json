@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\TrendVibes_Real\\TrendVibes.Api\\TrendVibes.Api.csproj": {}
+    "c:\\TrendVibes_Real\\TrendVibes.Api\\TrendVibes.Api.csproj": {}
   },
   "projects": {
-    "C:\\TrendVibes_Real\\TrendVibes.Api\\TrendVibes.Api.csproj": {
+    "c:\\TrendVibes_Real\\TrendVibes.Api\\TrendVibes.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\TrendVibes_Real\\TrendVibes.Api\\TrendVibes.Api.csproj",
+        "projectUniqueName": "c:\\TrendVibes_Real\\TrendVibes.Api\\TrendVibes.Api.csproj",
         "projectName": "TrendVibes.Api",
-        "projectPath": "C:\\TrendVibes_Real\\TrendVibes.Api\\TrendVibes.Api.csproj",
+        "projectPath": "c:\\TrendVibes_Real\\TrendVibes.Api\\TrendVibes.Api.csproj",
         "packagesPath": "C:\\Users\\Sanddro Lourenço\\.nuget\\packages\\",
-        "outputPath": "C:\\TrendVibes_Real\\TrendVibes.Api\\obj\\",
+        "outputPath": "c:\\TrendVibes_Real\\TrendVibes.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Sanddro Lourenço\\AppData\\Roaming\\NuGet\\NuGet.Config"
