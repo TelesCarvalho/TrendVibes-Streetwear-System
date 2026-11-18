@@ -1,0 +1,30 @@
+name: TrendVibes CI/CD Pipeline
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build-and-validate:
+    name: Build API .NET 8 & Docker Validation
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout do Repositório
+        uses: actions/checkout@v4
+
+      - name: Configurar Ambiente .NET 8.0
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.x'
+
+      - name: Restaurar Dependências (NuGet)
+        run: dotnet restore TrendVibes.Api/TrendVibes.Api.csproj
+
+      - name: Compilar API em Modo Release
+        run: dotnet build TrendVibes.Api/TrendVibes.Api.csproj --configuration Release --no-restore
+
+      - name: Validar Build da Imagem Docker
+        run: docker build -t trendvibes-api:latest ./TrendVibes.Api
